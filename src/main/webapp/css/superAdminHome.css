@@ -1,0 +1,63 @@
+.btn-center {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.authenticated-user {
+    background-color:#00FF00;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer small {
+    margin-bottom: 40px; 
+    text-align: center;
+    display: block;    
+}
+
+.card-footer .text-muted {
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.card-footer .btn-group {
+    margin-top: 20px; 
+    display: block;  
+}
+
+#createManager:hover,
+#createUser:hover {
+    background-color: hotpink; /* Change to hot pink color */
+}
